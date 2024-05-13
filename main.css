@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: #2b78ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8%;
+    box-shadow: 0 8px 20px #000;
+  
+  }
+  
+  header .logo {
+    font-size: 35px;
+    font-weight: 900;
+    color: #ecf807;
+    transition: .5s;
+  }
+  
+  header .logo:hover {
+    transform: scale(1.2);
+  }
+  
+  h1 {
+    margin-top: 140px;
+    font-size: 30px;
+    color:rgb(49, 4, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    position: relative;
+  }
+
+  .input {
+    align-items: center;
+    position: relative;
+  }
+
+  button {
+    align-items: center;
+    transition: .2s;
+    width: 80px;	
+    position: relative;
+    top: 30px;
+  }
+
+  button:active {
+    background-color: rgb(18, 243, 33);
+  }
+
+  button:hover {
+    transform: scale(1.2);
+  }
+
+  input {
+    position: relative;
+    top: 30px;
+    height: 20px;
+    width: 250px;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .container {
+    margin-top:50px;
+    width: 330px;	height: 200px; /* Размеры */
+    background: none; /*Цвет фона */
+    outline: 2px solid #998eb4; /*Внешняя рамка*/
+    border: 3px solid none; /*Внутренняя рамка*/
+    border-radius: 3px; /*Радиус скругления    */
+    align-items: center;
+  }
+
+  .result {
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .weter {
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .icons {
+    display: block;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  footer {
+    position: fixed; /* Фиксированное положение */
+    bottom: 0; /*Левый нижний угол */
+    text-align: center;
+    padding: 8px; /* Поля вокруг текста */
+    background: #717672; /* Цвет фона */
+    color: #d4fd07; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    font-size: 12px;
+   }
+  
+  .footer {
+    position: fixed;
+    right: 0;
+  }
+  
+  .anim {
+    position: absolute;
+    right: 0px;
+    top: 150px;
+  }
+
+  .TimeDate {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+  }

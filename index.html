@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Погода</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Текущая погода</a>
+        <div class="TimeDate">
+            <p>Текущее время: <time id="currentTime"></time></p>
+            <p>Текущая дата: <time id="currentDate"></time></p>
+        </div>
+    </header>
+    <style>
+        body {
+         background-image: url(https://img.freepik.com/premium-photo/sun-and-clouds-on-the-blue-sky-nature-background_104337-5094.jpg);
+         background-repeat: no-repeat;
+         background-size: 100%;
+        }
+    </style>
+    <div align="center">
+        <div class="input">
+            <h1>Введите название города</h1>
+            <input id="inputWeather" type="text">
+            <button id="getWeatherBtn">Показать</button>
+        </div>
+    </div>
+    
+    <div align="center">
+        <div class="container">
+            <span class="result"></span>
+            <span class="weter"></span>
+            <span class="icons"></span>
+        </div>
+    </div>
+    <div class="anim">
+        <img src="https://i.gifer.com/origin/01/01f5b6c87cd06ddb802e72651bd2095a_w200.gif">
+    </div>
+<!-- <script language="javascript" type="text/javascript">
+    var d = new Date();
+    var day=new Array("Воскресенье","Понедельник","Вторник","Среда","Четверг","Пятница","Суббота");
+    var month=new Array("января","февраля","марта","апреля","мая","июня","июля","августа","сентября","октября","ноября","декабря");
+    document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]+ " " + d.getFullYear() + " г.");
+</script> -->
+        
+<script src="script.js"></script>
+<footer>
+    <p>Designed by: bulat_salahov</p>
+</footer>
+</body>
+</html>
